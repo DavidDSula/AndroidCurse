@@ -4,6 +4,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -43,5 +44,9 @@ public class FeaturesToRemember extends AppCompatActivity {
         txtName.setText("First Name: " + name);
         txtLastName.setText("Last Name: " + lastName);
         txtEmail.setText("Email: " + email);
+
+        //------Toast Messages
+        //------Toast.makeText( context:getActivity(), text, duration).show();
+        Toast.makeText( this, "This is my Toast message!", Toast.LENGTH_LONG).show();
     }
 }
