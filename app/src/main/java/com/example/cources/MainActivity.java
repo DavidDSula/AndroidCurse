@@ -38,20 +38,4 @@ public class MainActivity extends AppCompatActivity {
         txtLastName.setText("Last Name: " + lastName);
         txtEmail.setText("Email: " + email);
     }
-
-    // Here i going to store Features that i should remember.
-    public void FeaturesToRemember(){
-
-        // ----------[ add event listener on click Feature ]-------------------
-        //---------------------------------------------------------------------
-        Button btn_ = findViewById(R.id.btnRegister);
-
-        btn_.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                System.out.println("button clicked");
-            }
-        });
-    }
-
 }
